@@ -1,5 +1,5 @@
-git init
-git clone <repos>
+git init                新建本地版本库
+git clone <repos>       建立远程版本库的复本
 
 git add <file>          添加到缓存（也叫快照）
 git commit -m "提交说明" 将缓存区内容添加到仓库
@@ -21,4 +21,7 @@ git rm <file>           从git中移除某个文件，必须从跟踪文件中�
 git rm -f <file>        删除之前修改过且已经放到暂存区域的话，必须强制删除选项 -f
 git rm --cached <file>   仅删除暂存区中的文件
 git rm -r <file>        删除git中的文件夹
+执行删除命令后，commit和push也要执行，才会同步到版本库
+
+分支测试第一个提交
 
