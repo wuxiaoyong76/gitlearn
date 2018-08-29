@@ -1,0 +1,13 @@
+git init
+git clone <repos>
+git add <file>
+git commit -s "提交说明"
+git push 提交到版本库
+
+git status
+git status -s
+
+git diff                查看尚未缓存的改动
+git diff --cached       查看已缓存的改动
+git diff HEAD           查看已缓存的与未缓存的所有改动
+git diff --stat         显示摘要而非整个diff
