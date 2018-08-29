@@ -1,7 +1,11 @@
 git init
 git clone <repos>
+
 git add <file>
 git commit -s "提交说明"
+
+git commit -a          add和commit合为这一步
+
 git push 提交到版本库
 
 git status
