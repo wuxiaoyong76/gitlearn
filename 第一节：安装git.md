@@ -14,9 +14,9 @@
 
 
 三、安装完成后，最后一步设置，自报家门。
-    git config --global user.name "your name"
-    git config --global user.email "vip120@126.com"
 
-    注意git config 命令的 --global 参数，用了这个参数，表示你这台机器上所有的git他库都会
-    使用这个配置，当然你也可对某个仓库指定不同的用户名和email地址。
+git config --global user.name "your name"
+git config --global user.email "vip120@126.com"
+注意git config 命令的 --global 参数，用了这个参数，表示你这台机器上所有的git他库都会
+使用这个配置，当然你也可对某个仓库指定不同的用户名和email地址。
 
