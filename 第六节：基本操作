@@ -20,4 +20,5 @@ git diff --stat         显示摘要而非整个diff
 git rm <file>           从git中移除某个文件，必须从跟踪文件中移除，然后提交
 git rm -f <file>        删除之前修改过且已经放到暂存区域的话，必须强制删除选项 -f
 git rm --cached <file>   仅删除暂存区中的文件
+git rm -r <file>        删除git中的文件夹
 
